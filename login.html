@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notify - Signup - Form</title>
+        <link rel="stylesheet" type="text/css" href="./css/login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="particles-js">
+            <script src="./js/particles.js"></script>
+            <script src="./js/app.js"></script>        
+        <div class="login-container">
+            <h1>Login</h1>
+            <hr>
+            <form name="form" method="POST" id="login-form" onsubmit="return validated()">
+                <div class="msg"></div>
+                <input autocomplete="off" type="text" id="email" placeholder="Your Email">
+                <div id="email_error">Email Field not valid!</div>
+                <input type="text" id="password" placeholder="Your Password">
+                <div id="pass_error">Password Field not valid!</div>
+                <input type="submit" value="Login">
+                <p class="al-account">Don't Have an account? <a href="./index.html">signup</a></p>
+                <script src="./js/loginfeilds.js"></script>
+            </form>
+        </div>
+    </body>
+</html>

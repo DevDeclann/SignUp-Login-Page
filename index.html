@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>Notify - Signup - Form</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="particles-js">
+            <script src="./js/particles.js"></script>
+            <script src="./js/app.js"></script>        
+        <div class="signup-container">
+            <h1>Sign Up Now</h1>
+            <hr>
+            <form name="form" method="POST" id="myForm" onsubmit="return validated()">
+                <div class="msg"></div>
+                <input type="text" id="email" placeholder="Your Email">
+                <div id="email_error">Email Field Not Valid</div>
+                <input type="text" id="password" placeholder="Your Password">
+                <div id="pass_error">Password Field Not Valid</div>
+                <p class="services"><input type="checkbox">I agree to the terms of service</p>
+                <input type="submit" value="Sign Up">
+                <p class="or">OR</p>
+                <input type="button" value="Login gmail">
+                <p class="al-account">Have an account? <a href="./login.html">Login</a></p>
+            <script src="./js/feilds.js"></script>
+            </form>
+        </div>
+    </body>
+</html>
+
